@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.4/font/bootstrap-icons.min.css" integrity="sha512-yU7+yXTc4VUanLSjkZq+buQN3afNA4j2ap/mxvdr440P5aW9np9vIr2JMZ2E5DuYeC9bAoH9CuCR7SJlXAa4pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <!-- ----------header---------- -->
+
+  <header>
+    <div class="header">
+      <h1><span>G</span>nanaprakash</h1>
+      <div class="sidebar">
+        <ul class="menu">
+          <i class="bi bi-arrow-bar-right close" onclick="showsidebar('-250px')"></i>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <i class="bi bi-three-dots dots" onclick="showsidebar('0')"></i>
+    </div>
+  </header>
+
+  <!-- ------------home------------ -->
+
+  <div id="home">
+    <div class="home-row">
+      <div class="home-col-2">
+        <img src="assets/gp.jpg">
+      </div>
+      <div class="home-col-1">
+        <h1>Hi, I'm <span>Gnanaprakash</span></h1>
+        <h2>Web Developer</h2>
+        <h2>From TamilNadu,India</h2>
+        <button class="cv-btn">Download CV</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------about--------------- -->
+
+  <div id="about">
+    <div class="about-row">
+      <div class="about-col-1">
+        <img src="assets/gp.jpg" alt="">
+
+      </div>
+      <div class="about-col-2">
+        <div class="about-me">
+          <h1>About Me</h1>
+          <p>Greetings! Iam a engineering student who loves to code. I am currently working as Technical Associate in our college club Enactus which is an international non profitable organization.</p>
+        </div>
+        <div class="about-links">
+          <label class="about-link skill-link active-link"><h3 onclick="switchtab('skills')">Skills</h3></label>
+          <label class="about-link education-link"><h3 onclick="switchtab('education')">Education</h3></label>
+        </div>
+        <div class="skills active">
+          <label>Technologies</label>
+          <p>C, Java, Python, Html, css, Javascript, PHP, mongodb, mysql</p>
+          <label>Platforms</label>
+          <p>Windows Family.</p>
+          <label>Strength</label>
+          <p>Good problem-solving abilities,Good communication skills,good in management.</p>
+        </div>
+        <div class="education">
+          <p><span>Rajalakshmi Engineering College, Chennai</span> — B.E Electronics and communication Engineering - 2020-2024,<br>
+          CGPA - 8.71
+          </p>
+          <br>
+          <p><span>Bharat matriculation higher secondary school, Krishnagiri</span> - SSLC,HSC <br>
+            JUNE 2016 - MAY 2018,JUNE 2018 - MAY 2019 <br>
+            SSLC-92.8% & HSC-80%
+            </p>
+        </div>
+        <div class="experience"></div>
+      </div>
+    </div>
+  </div>
+  <div id="projects">
+    <div class="projects-row">
+      <div class="projects-heading">
+        <h1>Projects</h1>
+      </div>
+      <div class="projects-col">
+        <h3>Register, login, profile</h3>
+        <div class="cover">
+          <a href="https://gnanaprakash-g.github.io/final/" target="_blank">Visit the site <i class="bi bi-box-arrow-up-right bi-1x"></i></a>
+        </div>
+      </div>
+      <div class="projects-col">
+        <div class="cover">
+          <a href="#">Visit the site <i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+      <div class="projects-col">
+        <h3>Github for more</h3>
+        <div class="cover">
+          <a Class="seemore" href="#">See more <i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contact">
+    contact
+  </div>
+  <footer>
+    <div class="footer">
+      <h3>&copy2023 Copyright:Gnanaprakash</h3>
+      <div class="top">
+        <a href="#home"><img src="assets/arrow-up-circle.svg" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>

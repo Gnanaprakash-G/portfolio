@@ -152,14 +152,14 @@
     const form = document.forms['submit-to-google-sheet'];
     const msg=document.getElementById('msg');
     form.addEventListener('submit', e => {
-      e.preventDefault()
+      e.preventDefault();
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-          msg.style.right=0;
+      .then(response => {
+        msg.style.display="block";
+        form.reset();
           setTimeout(()=>
           {
-            form.reset();
-            msg.style.right="-500px";
+            msg.style.display="none";
           }
           ,5000);
         })

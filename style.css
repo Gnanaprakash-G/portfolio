@@ -343,7 +343,6 @@ img:hover {
   justify-content:center;
   width: 100%;
   padding: 200px 40px;
-  position: relative;
 }
 .contact-left
 {
@@ -434,9 +433,7 @@ form input,form textarea
   border: none;
   border-radius: 5px;
   font-weight: 700;
-  position: absolute;
-  bottom: 130px;
-  right:-300px;
+  display: none;
   transition: right 0.5s;
 }
 /* -------------footer-------------- */

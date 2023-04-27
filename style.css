@@ -343,6 +343,7 @@ img:hover {
   width: 100%;
   padding: 200px 40px;
   position: relative;
+  overflow: hidden;
 }
 .contact-left
 {

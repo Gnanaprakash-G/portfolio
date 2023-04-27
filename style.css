@@ -13,6 +13,7 @@ body
   background: #070d1d;
   color:#ffffff;
   padding: 60px 16px 0 16px;
+  overflow-x: hidden;
 }
 
 /* -----------header----------- */
@@ -343,7 +344,6 @@ img:hover {
   width: 100%;
   padding: 200px 40px;
   position: relative;
-  overflow: hidden;
 }
 .contact-left
 {

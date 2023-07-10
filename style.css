@@ -295,7 +295,7 @@ img:hover {
   box-shadow: 1px 1px 8px rgba(44, 46, 79, 0.7);
   transform:translateY(-5px);
 }
-.projects-col .bi-github,.bi-people-fill,.bi-images
+.projects-col .bi-github,.bi-controller,.bi-images
 {
   font-size: 50px;
   margin-bottom: 10px;
